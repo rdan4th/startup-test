@@ -1,3 +1,2 @@
-#!/bin/bash          
-tar -cZf /var/my-backup.tgz /home/me/
-ls
+#! /bin/bash          
+ls -l | sed -e "s/[aeio]/u/g"
