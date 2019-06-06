@@ -1,2 +1,2 @@
-#! /bin/bash          
-ls -l | sed -e "s/[aeio]/u/g"
+#!/bin/bash          
+echo Hello World
